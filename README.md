@@ -1,5 +1,6 @@
 Structure of the archive:
 
+```
 pycompss_shm/
 ├── README.txt
 ├── Trunkcfoyer
@@ -32,6 +33,7 @@ pycompss_shm/
         ├── run_matmul.sh
         ├── run_matmul_multiple.sh
         └── utils.sh
+```
 
 kmeans_results and matmul_results contain the resulting files from the bench
 application scripts. .csv files contain the raw times with the corresponding
