@@ -1,0 +1,8 @@
+bench01 (with    shm): 8.43362324 s - blocks: 8x8, block-size: 128x128, #nodes: 2 (50 iter)
+bench11 (with    shm): 18.28692983 s - blocks: 8x8, block-size: 512x512, #nodes: 2 (50 iter)
+bench12 (with    shm): 18.14292977 s - blocks: 12x12, block-size: 128x128, #nodes: 2 (50 iter)
+bench13 (with    shm): 51.52650085 s - blocks: 12x12, block-size: 512x512, #nodes: 2 (50 iter)
+bench01 (without shm): 8.35988792 s - blocks: 8x8, block-size: 128x128, #nodes: 2 (50 iter)
+bench11 (without shm): 17.34291024 s - blocks: 8x8, block-size: 512x512, #nodes: 2 (50 iter)
+bench12 (without shm): 18.49461526 s - blocks: 12x12, block-size: 128x128, #nodes: 2 (50 iter)
+bench13 (without shm): 48.92041750 s - blocks: 12x12, block-size: 512x512, #nodes: 2 (50 iter)

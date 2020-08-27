@@ -1,0 +1,6 @@
+bench32 (with    shm): 151.78703450 s - blocks: 12x12, block-size: 1024x1024, #nodes: 2 (50 iter)
+bench33 (with    shm): 581.25679139 s - blocks: 12x12, block-size: 2048x2048, #nodes: 2 (50 iter)
+bench34 (with    shm):  s - blocks: 12x12, block-size: 4096x4096, #nodes: 2 (0 iter)
+bench32 (without shm): 160.58691088 s - blocks: 12x12, block-size: 1024x1024, #nodes: 2 (50 iter)
+bench33 (without shm): 637.42370926 s - blocks: 12x12, block-size: 2048x2048, #nodes: 2 (50 iter)
+bench34 (without shm): 3218.71787154 s - blocks: 12x12, block-size: 4096x4096, #nodes: 2 (25 iter)

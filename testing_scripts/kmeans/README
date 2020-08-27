@@ -1,0 +1,38 @@
+This is the Readme for:
+Kmeans
+
+[Name]: kmeans_redis
+[Contact Person]: support-compss@bsc.es
+[License Agreement]: Apache2
+[Platform]: COMPSs
+
+[Body]
+== Description ==
+Kmeans clustering using persistent storage (Redis).
+
+
+== Execution instructions ==
+
+You can manually call the kmeans application script with
+`sub_scripts/run_kmeans.sh <#NODES> <WALLTIME> <TRACING> -n <NUM_POINTS> -d
+<DIMENSIONS> -c <CENTRES> -f <FRAGMENTS>`
+
+    - Where:
+        <TRACING>............... Enable or disable tracing ( true | false )
+        <NUM_POINTS>............ Number of points
+        <DIMENSIONS>............ Number of dimensions
+        <CENTRES>............... Number of centres
+        <FRAGMENTS>............. Number of fragments
+
+     - Other available options:
+         -s <SEED>.............. Define a seed
+         -m <MODE>.............. Distribution of points ( uniform | normal )
+         -i <ITERATIONS>........ Maximum number of iterations
+         -e <EPSILON>........... Epsilon value. Convergence value.
+         -l <NORM>.............. Norm for vectors ( l1 | l2 )
+         --plot_result.......... Plot the resulting clustering (only for 2D)
+
+    - Example: ./sub_scripts/run_kmeans.sh 2 16 true -n 160 -d 3 -c 4 -f 4
+
+== Build ==
+No build is required
